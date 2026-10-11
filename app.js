@@ -113,7 +113,7 @@ const SCRIPT_TEMPLATES = [
     placement: 'System > Scripts. Jalankan manual atau gunakan Scheduler sesuai kebutuhan. Gunakan template contoh ini: {"NEMO";"BANU";"PUTRI"}',
     inputs: [
       ...TELEGRAM_INPUTS,
-      { key: 'ALLOWED_USERS', label: 'Daftar User Hotspot', placeholder: 'Format: {"NEMO";"BANU";"PUTRI"}', type: 'textarea', required: true },
+      { key: 'ALLOWED_USERS', label: 'Daftar User Hotspot', placeholder: 'Format CEK Info dibawah!', type: 'textarea', required: true },
     ],
     template: `# ============================================================
 # MTgenX - Admin/Owner Usage Monitor
@@ -192,7 +192,7 @@ const SCRIPT_TEMPLATES = [
     placement: 'System > Scripts. Jalankan dengan Scheduler setiap 30 hari dan 12 jam atau sesuai periode tagihan. Jika user lebih dari 1, setiap satu baris silahkan tambahkan simbol ; di akhir, setelahnya tidak perlu. Jika kesusahan mengetik, copy paste ini sebagai acuan: "Putri;Rp.50.000;8Mbps;4 Perangkat;Setiap Akhir Bulan";',
     inputs: [
       ...TELEGRAM_INPUTS,
-      { key: 'CUSTOMERS', label: 'Daftar Pelanggan PPP', placeholder: '"Putri;Rp.50.000;8Mbps;4 Perangkat;Setiap Akhir Bulan";', type: 'textarea', required: true },
+      { key: 'CUSTOMERS', label: 'Daftar Pelanggan PPP', placeholder: 'Format pengisian CEK Info Keterangan dibawah!', type: 'textarea', required: true },
     ],
     template: `# ============================================================
 # MTgenX - PPP Billing Reminder
@@ -719,7 +719,7 @@ function renderFooter() {
   var year = new Date().getFullYear();
   return '<footer class="mt-auto w-full px-6 py-6 text-center">' +
     '<p class="text-sm text-white/50">Copyright &copy; ' + year + ' ' +
-    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with <span class="inline fill-red-400 text-red-400">' + ICONS.Heart + '</span> by Kapten Nemo</a></p></footer>';
+    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with ❤ by Kapten Nemo</a></p></footer>';
 }
 
 function renderToast() {
