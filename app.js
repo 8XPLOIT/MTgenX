@@ -575,7 +575,7 @@ function renderHome() {
     '<div class="mb-10 text-center animate-fade-in-up sm:mb-16">' +
     '<div class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] font-medium text-white/60 backdrop-blur-md sm:mb-6 sm:px-4 sm:text-xs">' +
     '<span class="shrink-0 text-green-400">' + ICONS.ShieldCheck + '</span>' +
-    '<span class="truncate">100% Client-Side \u2014 Data Anda tidak dikirim ke server!</span>' +
+    '<span class="truncate">100% Client-Side!</span>' +
     '</div>' +
     '<h1 class="text-5xl font-bold tracking-tight sm:text-7xl lg:text-8xl"><span class="text-gradient">MTgenX</span> </h1>' +
     '<p class="mx-auto mt-3 max-w-2xl text-base text-white/60 sm:mt-4 sm:text-xl">MikroTik Generator External</p>' +
