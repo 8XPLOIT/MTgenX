@@ -721,15 +721,10 @@ function themeToggleBtn(theme) {
 function renderFooter() {
   var year = new Date().getFullYear();
   return '<footer class="mt-auto w-full px-6 py-6 text-center">' +
-<<<<<<< HEAD
+
     '<p class="text-sm text-white/50">&copy; ' + year + ' ' +
     '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with ❤ by Kapten Nemo</a></p></footer>';
-=======
-    '<p class="text-sm text-white/50">Copyright &copy; ' + year + ' ' +
-    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">with ❤ by Kapten Nemo</a></p></footer>';
->>>>>>> de08867df35e178c02abc0707328953cbb9c8b07
 }
-
 function renderToast() {
   var existing = document.getElementById('toast');
   if (existing) return;
