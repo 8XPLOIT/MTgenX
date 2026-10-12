@@ -572,10 +572,13 @@ function renderHome() {
     '</div>' +
     '<div class="relative z-10 mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-8 sm:px-6 sm:py-12 lg:px-8">' +
     '<div class="absolute right-4 top-4">' + themeToggleBtn(theme) + '</div>' +
-    '<div class="mb-10 text-center animate-fade-in-up sm:mb-16">' +
+    
+    // PERUBAHAN: Menambahkan mt-16 sm:mt-12 di sini untuk memberi jarak dari atas
+    '<div class="mt-16 mb-10 text-center animate-fade-in-up sm:mt-12 sm:mb-16">' + 
+    
     '<div class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[11px] font-medium text-white/60 backdrop-blur-md sm:mb-6 sm:px-4 sm:text-xs">' +
     '<span class="shrink-0 text-green-400">' + ICONS.ShieldCheck + '</span>' +
-    '<span class="truncate">100% Client-Side \u2014 Data Anda tidak dikirim ke server!</span>' +
+    '<span class="truncate">100% Client-Side!</span>' +
     '</div>' +
     '<h1 class="text-5xl font-bold tracking-tight sm:text-7xl lg:text-8xl"><span class="text-gradient">MTgenX</span> </h1>' +
     '<p class="mx-auto mt-3 max-w-2xl text-base text-white/60 sm:mt-4 sm:text-xl">MikroTik Generator External</p>' +
@@ -718,7 +721,7 @@ function themeToggleBtn(theme) {
 function renderFooter() {
   var year = new Date().getFullYear();
   return '<footer class="mt-auto w-full px-6 py-6 text-center">' +
-    '<p class="text-sm text-white/50">Copyright &copy; ' + year + ' ' +
+    '<p class="text-sm text-white/50">&copy; ' + year + ' ' +
     '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with ❤ by Kapten Nemo</a></p></footer>';
 }
 
