@@ -719,7 +719,7 @@ function renderFooter() {
   var year = new Date().getFullYear();
   return '<footer class="mt-auto w-full px-6 py-6 text-center">' +
     '<p class="text-sm text-white/50">Copyright &copy; ' + year + ' ' +
-    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with ❤ by Kapten Nemo</a></p></footer>';
+    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">with ❤ by Kapten Nemo</a></p></footer>';
 }
 
 function renderToast() {
