@@ -593,7 +593,7 @@ function renderHome() {
     '</div>' +
     '<div><p class="text-sm font-semibold text-white">Cara Pakai</p><p class="text-xs text-white/50">Pilih kategori &rarr; isi form &rarr; copy script &rarr; paste ke MikroTik</p></div>' +
     '</div>' +
-    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-medium text-white/70 transition hover:bg-white/10 hover:text-white sm:w-auto">' +
+    '<a href="https://8xploit.github.io/nemo" target="_blank" rel="noopener noreferrer" class="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2.5 text-sm font-medium text-white/70 transition hover:bg-white/10 hover:text-white sm:w-auto">' +
     ICONS.Github + ' Developer</a>' +
     '</div></div>' +
     renderFooter() +
@@ -723,7 +723,7 @@ function renderFooter() {
   return '<footer class="mt-auto w-full px-6 py-6 text-center">' +
 
     '<p class="text-sm text-white/50">&copy; ' + year + ' ' +
-    '<a href="https://8xploit.github.io/cv" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with ❤ by Kapten Nemo</a></p></footer>';
+    '<a href="https://8xploit.github.io/nemo" target="_blank" rel="noopener noreferrer" class="font-medium text-white/70 transition hover:text-primary-300">Made with ❤ by Kapten Nemo</a></p></footer>';
 }
 function renderToast() {
   var existing = document.getElementById('toast');
